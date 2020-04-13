@@ -2,16 +2,16 @@
   #app
     h1 Banana
     img(alt="Banana" src="./assets/logo.png")
-    HelloWorld(msg="Hi there!")
+    ApolloExample(msg="Hi there!")
 </template>
 
 <script>
-  import HelloWorld from "./components/HelloWorld.vue"
+  import ApolloExample from "./components/ApolloExample.vue"
 
   export default {
     name: "App",
     components: {
-      HelloWorld,
+      ApolloExample,
     },
   }
 </script>
